@@ -1,0 +1,152 @@
+.profile { 
+    border-radius: 50%; 
+    float: left;
+}
+
+.info {
+    color: #E2197E;
+    margin-left: -10px;
+}
+
+.list-group{
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+.name{
+    font-size: 40px;
+}
+
+.profile_info span {
+    display: table;
+    padding: 5px 10px;
+}
+
+.bio{
+    max-width: 550px;
+    word-wrap: break-word;
+    color: #C6C6C6;
+}
+
+.sub-heading{
+    font-size: 15px;
+    color: #808080;
+}
+
+.sub-heading-right{
+    font-size: 15px;
+    color: #808080;
+}
+
+.right_block{
+    float: right;
+}
+
+.landscapes{
+    font-size: 15px;
+}
+
+.landscape_img{
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+}
+
+.left_box{
+    float: left;
+    margin-left: 10px;
+}
+
+.right_box{
+    float: right;
+    margin-right: 10px;
+}
+
+.box{
+    width: 325px; 
+    height: 200px;
+    position: relative;
+    display: inline-block;
+}
+
+.display_text{
+    color: white;
+    font-size: 25px;
+    z-index: 100;
+    position: relative;
+    font-weight: bold;
+}
+
+.landscape_info{
+    z-index: 0;
+    width: 325px;
+    height: 330px;
+    position: absolute;
+    background-color: white;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+.date{
+    float: right;
+    color: #b4b4b4;
+    position: absolute;
+    margin-left: -100px;
+    bottom: 25px;
+}
+
+.landscape_modules{
+    position: relative;
+}
+
+.desc{
+    position: relative; 
+    font-size: 15px;
+    margin-left: 18px;
+    max-width: 300px;
+    display: inline-block;
+    word-wrap: break-word;
+    width: 300px;
+}
+
+.heart_box{
+    position: absolute; 
+    display: inline-block;
+    width: 30px;
+    bottom: 10px;
+    margin-left: -300px;
+}
+
+.heart {
+    background-color: red;
+    display: inline-block;
+    height: 20px;
+    margin: 0 10px;
+    position: relative;
+    top: 0;
+    transform: rotate(-45deg);
+    width: 20px;
+}
+
+.heart:before,
+.heart:after {
+    content: "";
+    background-color: red;
+    border-radius: 50%;
+    height: 20px;
+    position: absolute;
+    width: 20px;
+}
+
+.heart:before {
+    top: -11px;
+    left: 0;
+}
+
+.heart:after {
+    left: 11px;
+    top: 0;
+}
